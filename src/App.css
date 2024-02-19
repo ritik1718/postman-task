@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  position: relative;
+}
+
+.movie-card {
+  position: relative;
+}
+
+.header {
+  position: relative;
+  padding: 20px;
+}
+
+.title {
+  position: relative;
+  left: 0;
+  top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgb(183, 104, 104);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  background: linear-gradient(180deg , transparent , rgb(0, 0, 0));
+}
+
+/* .title::before {
+  content: '';
+  position: relative;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 100%;
+  background-color: #ff5722;
+} */
+
+
+.overview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(255, 0, 0, 0.362);
+  background: linear-gradient(180deg , transparent , rgb(174, 41, 41));
+  color: #ffffff;
+  padding: 10px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.movie-card:hover .overview {
+  opacity: 1;
+}
+
+
+.show-overlay .overview {
+  opacity: 1;
+}
+
+body {
+  background-color: rgb(146, 12, 12);
+  color: white;
+}
+.movie-card {
+  background-color: #b85c5c; 
+  color: #000000; 
+  border-radius: 0%; 
+  padding: 20px; 
+  margin-bottom: 20px;
+  height: 400px;
+  overflow: hidden;
+  background: linear-gradient(180deg , transparent , rgb(255, 255, 255));
+  
+}
+.search-bar{
+  height:1000px;
+  width: auto;
+  z-index: 99999999;
+}
