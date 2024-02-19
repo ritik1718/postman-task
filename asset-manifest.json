@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/postman/static/css/main.cd185521.css",
-    "main.js": "/postman/static/js/main.c5883f25.js",
-    "static/js/592.78657b93.chunk.js": "/postman/static/js/592.78657b93.chunk.js",
-    "index.html": "/postman/index.html",
-    "main.cd185521.css.map": "/postman/static/css/main.cd185521.css.map",
-    "main.c5883f25.js.map": "/postman/static/js/main.c5883f25.js.map",
-    "592.78657b93.chunk.js.map": "/postman/static/js/592.78657b93.chunk.js.map"
+    "main.css": "/postman-task/static/css/main.cd185521.css",
+    "main.js": "/postman-task/static/js/main.6cb09f48.js",
+    "static/js/592.78657b93.chunk.js": "/postman-task/static/js/592.78657b93.chunk.js",
+    "index.html": "/postman-task/index.html",
+    "main.cd185521.css.map": "/postman-task/static/css/main.cd185521.css.map",
+    "main.6cb09f48.js.map": "/postman-task/static/js/main.6cb09f48.js.map",
+    "592.78657b93.chunk.js.map": "/postman-task/static/js/592.78657b93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd185521.css",
-    "static/js/main.c5883f25.js"
+    "static/js/main.6cb09f48.js"
   ]
 }
